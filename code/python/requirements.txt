@@ -1,0 +1,7 @@
+numpy==1.26.4
+opencv-python~=4.9.0.80
+pyserial~=3.5
+ultralytics~=8.3.48
+eventlet~=0.38.0
+flask~=3.1.0
+python-socketio
