@@ -1,19 +1,21 @@
 # Armvisionconvey-System
 
+
 # **HỆ THỐNG NHẬN DIỆN VẬT THỂ VÀ ĐIỀU KHIỂN CÁNH TAY ROBOT TỰ ĐỘNG**  
 **Khóa luận tốt nghiệp**  
 #### **Tác giả:** [Tên của bạn]  
 #### **Giảng viên hướng dẫn:** [Tên giảng viên hướng dẫn]  
+
 ---
 
 ## **Giới thiệu**  
-Khóa luận này giới thiệu một hệ thống tích hợp sử dụng **thị giác máy tính** để nhận diện vật thể trên băng chuyền và điều khiển cánh tay robot thực hiện các thao tác tự động như gắp và phân loại vật thể. Hệ thống được xây dựng nhằm mục tiêu ứng dụng trong lĩnh vực tự động hóa, đặc biệt là thu gom và phân loại rác thải thông minh.
+Khóa luận này giới thiệu một hệ thống tích hợp sử dụng **thị giác máy tính** để nhận diện vật thể trên băng chuyền và điều khiển cánh tay robot thực hiện các thao tác tự động như gắp và phân loại vật thể. Hệ thống được xây dựng nhằm mục tiêu ứng dụng trong lĩnh vực tự động hóa, đặc biệt là thu gom và phân loại rác thải thông minh.  
 
-Hệ thống bao gồm các thành phần chính:
-- **Băng chuyền**: Đưa vật thể qua các giai đoạn xử lý.
-- **Cánh tay robot**: Thực hiện thao tác gắp vật thể.
-- **Phần thị giác máy tính**: Nhận diện vật thể và đưa ra quyết định thông qua mô hình **YOLOv8**.
-- **Kết nối không dây IoT**: Đồng bộ các thành phần hệ thống qua giao thức WebSocket.
+Hệ thống bao gồm các thành phần chính:  
+- **Băng chuyền**: Đưa vật thể qua các giai đoạn xử lý.  
+- **Cánh tay robot**: Thực hiện thao tác gắp vật thể.  
+- **Phần thị giác máy tính**: Nhận diện vật thể và đưa ra quyết định thông qua mô hình **YOLOv8**.  
+- **Kết nối không dây IoT**: Đồng bộ các thành phần hệ thống qua giao thức WebSocket.  
 
 ---
 
@@ -61,8 +63,8 @@ Hệ thống bao gồm các thành phần chính:
 
 ## **Hướng phát triển trong tương lai**  
 1. **Tối ưu hóa kết nối và vận hành hệ thống** để cải thiện độ chính xác và hiệu suất.  
-2. **Mở rộng khả năng nhận diện** nhiều loại vật thể khác nhau.  
-3. **Ứng dụng trong thực tiễn**, như tại các cơ sở tái chế, nhà máy sản xuất hoặc dây chuyền tự động hóa công nghiệp.  
+2. **Mở rộng khả năng nhận diện đa dạng**: Nhận diện nhiều loại vật thể khác nhau, chẳng hạn như chai thủy tinh, lon kim loại.  
+3. **Đưa vào ứng dụng thực tiễn**, như tại các cơ sở tái chế, nhà máy sản xuất hoặc dây chuyền tự động hóa công nghiệp.  
 
 ---
 
@@ -72,7 +74,7 @@ Hệ thống bao gồm các thành phần chính:
    - `ultralytics`  
    - `opencv-python`  
    - `flask`  
-   - `socketio`  
+   - `python-socketio`  
 3. Phần cứng:  
    - Arduino Mega, ESP32.  
    - Camera hỗ trợ độ phân giải HD.  
@@ -83,3 +85,24 @@ Hệ thống bao gồm các thành phần chính:
 1. **Cài đặt môi trường**:  
    ```bash
    pip install ultralytics opencv-python flask python-socketio
+   ```  
+
+2. **Chạy phần thị giác trên máy tính**:  
+   ```bash
+   python vision_system.py
+   ```  
+
+3. **Nạp chương trình cho Arduino Mega và ESP32**:  
+   - Sử dụng **Arduino IDE** để nạp mã điều khiển.  
+
+4. **Kết nối hệ thống**:  
+   - Đảm bảo tất cả các thành phần được kết nối qua mạng Wi-Fi cục bộ.  
+
+---
+
+## **Liên hệ**  
+- **Tác giả**: [Tên của bạn]  
+- **Email**: [Email của bạn]  
+- **Github Repository**: [Liên kết đến repo nếu có]  
+
+---
