@@ -1,10 +1,10 @@
 # Armvisionconvey-System
 
 
-# **HỆ THỐNG NHẬN DIỆN VẬT THỂ VÀ ĐIỀU KHIỂN CÁNH TAY ROBOT TỰ ĐỘNG**  
+# **ỨNG DỤNG THỊ GIÁC MÁY TÍNH TRONG ĐIỀU KHIỂN CÁNH TAY ROBOT**  
 **Khóa luận tốt nghiệp**  
-#### **Tác giả:** [Tên của bạn]  
-#### **Giảng viên hướng dẫn:** [Tên giảng viên hướng dẫn]  
+#### **Tác giả:** [Hồ Minh Trí]  
+#### **Giảng viên hướng dẫn:** [TS. Nguyễn Đăng Trị]  
 
 ---
 
