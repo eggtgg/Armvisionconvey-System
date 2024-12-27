@@ -86,7 +86,7 @@ Hệ thống bao gồm các thành phần chính:
 
 2. **Chạy phần thị giác trên máy tính**:  
    ```bash
-   python vision_system.py
+   python vision_arm_socket_server_iot.py
    ```  
 
 3. **Nạp chương trình cho Arduino Mega và ESP32**:  
