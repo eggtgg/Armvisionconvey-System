@@ -39,7 +39,7 @@ Hệ thống bao gồm các thành phần chính:
    - Các cảm biến phát hiện vật thể trên băng chuyền.
 
 2. **Phần mềm**:  
-   - **YOLOv8** để nhận diện vật thể.
+   - **YOLO11** để nhận diện vật thể.
    - **Ultralytics Library** để triển khai mô hình trên máy tính cá nhân.
    - Giao thức **WebSocket** để giao tiếp không dây giữa phần thị giác và hệ thống robot.
 
@@ -81,7 +81,7 @@ Hệ thống bao gồm các thành phần chính:
 ## **Hướng dẫn triển khai**
 1. **Cài đặt môi trường**:
    ```bash
-   pip install ultralytics opencv-python flask python-socketio
+   pip install -r requirements.txt
    ```
 
 2. **Chạy phần thị giác trên máy tính**:  
@@ -90,7 +90,7 @@ Hệ thống bao gồm các thành phần chính:
    ```  
 
 3. **Nạp chương trình cho Arduino Mega và ESP32**:  
-   - Sử dụng **Arduino IDE** để nạp mã điều khiển.  
+   - Sử dụng **Arduino IDE** để nạp mã điều khiển.
 
 4. **Kết nối hệ thống**:  
    - Đảm bảo tất cả các thành phần được kết nối qua mạng Wi-Fi cục bộ. 
